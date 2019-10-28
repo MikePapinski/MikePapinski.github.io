@@ -3,7 +3,7 @@ name: "Affiliates Theme for Jekyll"
 title: "Affiliates Theme for Jekyll"
 description: "Jekyll Theme for Blogging"
 meta_description: "Jekyll theme for blogging."
-logo: 'assets/images/logo.png'
+logo: 'assets/images/logo_down.png'
 favicon: 'assets/images/favicon.ico'
 paginate: 12
 baseurl: '/'
@@ -32,13 +32,13 @@ authors:
     description: "This is the author box. Write a short description of the author here. You are currently previewing Affiliates theme demo, a Jekyll template compatible with Github pages."
 
 # Plugins
-plugins: 
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-        
+
 # Archives
 jekyll-archives:
   enabled:
@@ -46,7 +46,7 @@ jekyll-archives:
   layout: archive
   permalinks:
     category: '/category/:name/'
-    
+
 # Other
 markdown: kramdown
 highlighter: rouge
