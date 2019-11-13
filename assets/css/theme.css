@@ -388,8 +388,8 @@ span.post-name a,span.post-read-more a:hover {
     margin-top: 10px;
 }
 .beforefooter {
-    background: #9e0404;
-    color: #111;
+    background: #137669;
+    color: #3faea1;
     padding: 50px 0;
     max-width: 100%;
     margin: 0px auto;
@@ -573,7 +573,7 @@ a.btn {color:#fff;}
     font-size:15px;
 }
 .btn-primary {
-    background-color: #675bff;
+    background-color: #403d64;
     border-color: #675bff;
 }
 .btn.follow {
