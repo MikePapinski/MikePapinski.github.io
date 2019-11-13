@@ -3,7 +3,7 @@ name: "Affiliates Theme for Jekyll"
 title: "Affiliates Theme for Jekyll"
 description: "Jekyll Theme for Blogging"
 meta_description: "Jekyll theme for blogging."
-logo: 'assets/images/logo_back_small.png'
+logo: 'assets/images/my_face_small.png'
 favicon: 'assets/images/favicon.ico'
 paginate: 12
 baseurl: '/'
