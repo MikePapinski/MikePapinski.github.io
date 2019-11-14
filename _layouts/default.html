@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-{% if site.google_analytics and jekyll.environment == 'production' %}
+{% if jekyll.environment == 'production' %}
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152514548-1"></script>
 <script>
@@ -26,13 +26,7 @@
 
 {{site.sharethis}}
 
-
-
-
-
 </head>
-
-
 
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
 <body class="{{ layout }}">
