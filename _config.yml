@@ -10,6 +10,7 @@ baseurl: '/'
 email: 'mp.papinski@gmail.com'
 google_analytics: 'G-SHY9CG13V2'
 disqus: 'https-mikepapinski-github-io-sleek'
+
 sharethis: '<script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5dccaad3a96a11001267ff0b&product=sticky-share-buttons&cms=sop' async='async'></script>'
 
 # Authors
