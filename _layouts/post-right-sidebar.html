@@ -76,7 +76,7 @@ post_class: post-template
                 {% if page.author %}				
 				<div class="row post-top-meta">
 					<div class="col-md-2">
-						<img class="author-thumb" src="url({{ site.baseurl }}/assets/images/avatars/{{ author.gravatar }})" alt="{{ author.display_name }}">
+						<img class="author-thumb" src="{{ site.baseurl }}/assets/images/avatars/{{ author.gravatar }}" alt="{{ author.display_name }}">
 					</div>
 					<div class="col-md-10">
 						<a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a><a target="_blank" href="{{ author.twitter }}" class="btn follow">Follow</a>
