@@ -9,8 +9,8 @@ paginate: 12
 baseurl: '/'
 email: 'mp.papinski@gmail.com'
 google_analytics: 'UA-46278016-1'
-disqus: 'https-mikepapinski-github-io-sleek'
-sharethis: '<script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5dccaad408a6a400128a1715&product=sticky-share-buttons&cms=sop' async='async'></script>'
+disqus: ' '
+sharethis: ' '
 
 # Authors
 authors:
