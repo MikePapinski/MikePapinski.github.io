@@ -9,7 +9,7 @@ paginate: 12
 baseurl: '/'
 email: 'mp.papinski@gmail.com'
 google_analytics: ''
-disqus: ''
+disqus: 'https-mikepapinski-github-io-sleek'
 sharethis: ''
 
 # Authors
