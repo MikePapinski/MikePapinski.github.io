@@ -8,7 +8,6 @@ favicon: 'assets/images/favicon.ico'
 paginate: 12
 baseurl: '/'
 email: 'mp.papinski@gmail.com'
-google_analytics: ''
 disqus: 'https-mikepapinski-github-io-sleek'
 sharethis: ''
 
