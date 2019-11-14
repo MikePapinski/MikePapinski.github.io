@@ -12,7 +12,7 @@ image: assets/images/posts/1/post_1.jpg
 If you are reading this, you are probably struggling with running your super Keras deep learning models on your GPU. But guess what, I was at the same place a few months ago an I couldn’t find any good tutorial on how to properly set up your Keras deep learning GPU environment. It took me some time, trial & error before I figure out how to utilize my GPU while training models, but I will save you this effort. If you stay with me until the end of this tutorial. You will have a fully working Keras environment on your computer up and running in 1-2 hours. Most of that time you will be waiting while your computer will be processing tasks !!!
 
 <br>
-![Avatar]({{ site.baseurl }}/assets/img/posts/post_2/1.jpg)
+![Avatar]({{ site.baseurl }}/assets/images/posts/1/1.jpg)
 <br>
 
 
@@ -21,7 +21,7 @@ First of all, we should ask ourselves a question. Why do we need our Keras to us
 <br>
 
 # What do we need?
-![Req]({{ site.baseurl }}/assets/img/posts/post_2/2.jpg)
+![Req]({{ site.baseurl }}/assets/images/posts/1/2.jpg)
 
 ### Operating system :
 Choose one from the below.
@@ -65,7 +65,7 @@ This is a link to Github repository with the most up to date image I use persona
 <br>
 
 # Let's make it work.
-![Start]({{ site.baseurl }}/assets/img/posts/post_2/3.jpg)
+![Start]({{ site.baseurl }}/assets/images/posts/1/3.jpg)
 
 
 
@@ -112,12 +112,12 @@ make notebook GPU=0 # or [ipython, bash]
 ```
 Docker will start downloading all the required packages and you should see something like this on your console.
 <br>
-![Start]({{ site.baseurl }}/assets/img/posts/post_2/5.jpg)
+![Start]({{ site.baseurl }}/assets/images/posts/1/5.jpg)
 <br>
 
 When docker will finish building the container, you should this:
 <br>
-![Start]({{ site.baseurl }}/assets/img/posts/post_2/4.jpg)
+![Start]({{ site.baseurl }}/assets/images/posts/1/4.jpg)
 <br>
 
 
@@ -131,12 +131,12 @@ http://127.0.0.1:8888/?token=9fd39b2da74d5da694157e03a54f1ca5cb04809d4dc134cd
 ```
 And paste it to your browser. If you did all the previous steps correctly you should see this page.
 <br>
-![Start]({{ site.baseurl }}/assets/img/posts/post_2/6.jpg)
+![Start]({{ site.baseurl }}/assets/images/posts/1/6.jpg)
 <br>
 If you see the same screen it means that…
 # You did it!
 <br>
-![Start]({{ site.baseurl }}/assets/img/posts/post_2/7.jpg)
+![Start]({{ site.baseurl }}/assets/images/posts/1/7.jpg)
 <br>
 <br>
 
@@ -147,12 +147,12 @@ If you see the same screen it means that…
 <br>
 ## To do that, we will use the most common model for beginners which is already implemented in KERAS library. FASHION MNIST.
 <br>
-![Start]({{ site.baseurl }}/assets/img/posts/post_2/8.jpg)
+![Start]({{ site.baseurl }}/assets/images/posts/1/8.jpg)
 <br>
 
 In the Jupyter editor, click on “New” and then on “Python 3”. You will open the new project window.
 <br>
-![Start]({{ site.baseurl }}/assets/img/posts/post_2/9.jpg)
+![Start]({{ site.baseurl }}/assets/images/posts/1/9.jpg)
 <br>
 
 Now copy and paste the below code to the first cell-like on the picture below.
@@ -195,13 +195,13 @@ test_loss, test_acc = model.evaluate(test_images, test_labels)
 print('Test accuracy:', test_acc)
 ```
 <br>
-![Start]({{ site.baseurl }}/assets/img/posts/post_2/10.jpg)
+![Start]({{ site.baseurl }}/assets/images/posts/1/10.jpg)
 <br>
 
 And click on “Run”. After that, our Fashion MNIST model will start to train. Please note that preparing GPU for the session usually takes some time for the first time, more or less than 5 min. After we the GPU will be prepared for the tensor training, It will launch in a few seconds every next time you train the model.
 
 <br>
-![Start]({{ site.baseurl }}/assets/img/posts/post_2/13.jpg)
+![Start]({{ site.baseurl }}/assets/images/posts/1/13.jpg)
 <br>
 
 We can now see that the model was trained successfully to 0.6947% accuracy. There are much better models for this dataset if you want to look, but our model was only for demonstration purposes.
@@ -215,7 +215,7 @@ nvidia-smi
 ```
 You will see the status of your GPU. If under Processes, you will see the process with type “C” and “/opt/conda/bin/python “, it means that you the Keras model training process is using your GPU.
 <br>
-![Start]({{ site.baseurl }}/assets/img/posts/post_2/11.jpg)
+![Start]({{ site.baseurl }}/assets/images/posts/1/11.jpg)
 <br>
 <br>
 
@@ -226,14 +226,14 @@ htop
 ```
 You will see the current status of all your CPU usage.
 <br>
-![Start]({{ site.baseurl }}/assets/img/posts/post_2/12.jpg)
+![Start]({{ site.baseurl }}/assets/images/posts/1/12.jpg)
 <br>
 <br>
 
 # This is the very end of this tutorial.
 I wish you great ideas and great Deep Learning projects with your new build Keras GPU environment.
 <br>
-![Start]({{ site.baseurl }}/assets/img/posts/post_2/14.jpg)
+![Start]({{ site.baseurl }}/assets/images/posts/1/14.jpg)
 <br>
 
 ### ps. If you want to quickly open the jupyter notebook.

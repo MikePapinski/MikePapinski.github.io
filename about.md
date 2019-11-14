@@ -6,12 +6,12 @@ comments: true
 
 # Who am I?
 
-![Avatar]({{ site.baseurl }}/assets/img/about_9.jpg)
+![Avatar]({{ site.baseurl }}/assets/images/posts/about/about_9.jpg)
 
-## ![Avatar]({{ site.baseurl }}/assets/img/about_2.jpg) Husband.
-## ![Avatar]({{ site.baseurl }}/assets/img/about_4.jpg) Software engineer.
-## ![Avatar]({{ site.baseurl }}/assets/img/about_1.jpg) Machine learning enthusiast.
-## ![Avatar]({{ site.baseurl }}/assets/img/about_3.jpg) Financial markets trader.
+## ![Avatar]({{ site.baseurl }}/assets/images/posts/about/about_2.jpg) Husband.
+## ![Avatar]({{ site.baseurl }}/assets/images/posts/about/about_4.jpg) Software engineer.
+## ![Avatar]({{ site.baseurl }}/assets/images/posts/about/about_1.jpg) Machine learning enthusiast.
+## ![Avatar]({{ site.baseurl }}/assets/images/posts/about/about_3.jpg) Financial markets trader.
 
      
 <br>
@@ -19,7 +19,7 @@ comments: true
 
 # Technology stack
 
-![Avatar]({{ site.baseurl }}/assets/img/about_5.jpg)
+![Avatar]({{ site.baseurl }}/assets/images/posts/about/about_5.jpg)
 
 - Python
     * Pandas
@@ -62,7 +62,7 @@ comments: true
  
 # Finalized projects
 
-![Avatar]({{ site.baseurl }}/assets/img/about_6.jpg)
+![Avatar]({{ site.baseurl }}/assets/images/posts/about/about_6.jpg)
 
 ## `DivergenceFX` - Meta Trader 4,5 trading robot with web platform
 ##### Technology used:
@@ -93,7 +93,7 @@ comments: true
 
 # Ongoing projects:
 
-![Avatar]({{ site.baseurl }}/assets/img/about_7.jpg)
+![Avatar]({{ site.baseurl }}/assets/images/posts/about/about_7.jpg)
 
 ## `Forex AI` - Self learning robot trading forex markets
 ##### Technology used:
@@ -111,7 +111,7 @@ comments: true
 
 # Social media nodes
 
-![Avatar]({{ site.baseurl }}/assets/img/about_8.jpg)
+![Avatar]({{ site.baseurl }}/assets/images/posts/about/about_8.jpg)
 
 
 <br>
