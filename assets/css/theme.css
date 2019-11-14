@@ -292,7 +292,7 @@ span.post-name a,span.post-read-more a:hover {
 }
 .mediumnavigation .form-inline .btn:hover,.mediumnavigation .form-inline .btn:active {
 	background:transparent;
-	color:#9e0404;
+	color:#b77792;
 }
 .mediumnavigation .navbar-brand {
 	font-weight:500;
@@ -534,8 +534,8 @@ ul.tags li {
 	font-size:0.9rem;
 }
 ul.tags li a {
-    background: #9e0404;
-    color: #333;
+    background: #b77792;
+    color: #fff;
     padding: 3px 10px;
     border-radius: 3px;
     font-weight: 500;
