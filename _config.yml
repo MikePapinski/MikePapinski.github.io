@@ -15,22 +15,13 @@ sharethis: '<script type="text/javascript" src="//platform-api.sharethis.com/js/
 # Authors
 authors:
   sal:
-    name: Sal
-    display_name: Sal
-    gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net/category/jekyll-themes/
-    twitter: https://twitter.com/wowthemesnet
-    description: "Author of Affiliates, a template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
-  john:
-    name: John
-    display_name: John
-    gravatar: b1cc14991db7a456fcd761680bbc8f81
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net/category/jekyll-themes/
-    twitter: https://twitter.com/wowthemesnet
-    description: "This is the author box. Write a short description of the author here. You are currently previewing Affiliates theme demo, a Jekyll template compatible with Github pages."
-
+    name: Mike Papinski
+    display_name: Mike Papinski
+    gravatar: my_face_small.png
+    email: mp.papinski@@gmail.com
+    web: https://mikepapinski.github.io
+    description: "Main author of Mike Papinski Lab."
+  
 # Plugins
 plugins:
   - jekyll-paginate
