@@ -8,7 +8,7 @@ favicon: 'assets/images/favicon.ico'
 paginate: 12
 baseurl: '/'
 email: 'mp.papinski@gmail.com'
-google_analytics: ''
+google_analytics: 'UA-46278016-1'
 disqus: 'https-mikepapinski-github-io-sleek'
 sharethis: '<script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5dccaad3a96a11001267ff0b&product=sticky-share-buttons&cms=sop' async='async'></script>'
 
