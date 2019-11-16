@@ -1,8 +1,8 @@
 # Site
-name: "Affiliates Theme for Jekyll"
-title: "Affiliates Theme for Jekyll"
-description: "Jekyll Theme for Blogging"
-meta_description: "Jekyll theme for blogging."
+name: "Mike Papinski Lab"
+title: "Mike Papinski Lab"
+description: "Home of AI in Forex implementation"
+meta_description: "Mike Papinski lab is a blog related to AI implementation in Forex market."
 logo: 'assets/images/my_face_small.png'
 favicon: 'assets/images/favicon.ico'
 paginate: 12
@@ -17,7 +17,7 @@ authors:
     name: MikePapinski
     display_name: Mike Papinski
     gravatar: my_avatar.png
-    email: mp.papinski@@gmail.com
+    email: mp.papinski@gmail.com
     web: https://mikepapinski.github.io
     description: "Main author of Mike Papinski Lab."
   
@@ -28,6 +28,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
+  - jemoji
 
 # Archives
 jekyll-archives:
