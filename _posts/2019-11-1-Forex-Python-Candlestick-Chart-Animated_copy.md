@@ -4,7 +4,7 @@ title: Python Forex Candlestick Chart Animated.
 author: MikePapinski
 summary: We are going to generate animated candlestick chart using python and forex tick data.
 categories: [Python, Forex]
-image: assets/images/posts/5/post_5.jpg
+image: assets/images/posts/5/post_5.JPG
 ---
 
 
