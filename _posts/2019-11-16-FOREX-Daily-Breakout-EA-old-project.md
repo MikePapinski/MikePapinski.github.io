@@ -14,8 +14,9 @@ image: assets/images/posts/7/post_7.JPG
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MDtoXeCdqeg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-# Or written:
 
-## --- INTRO 
+## --- Download files:
+
+<a class="nav-link highlight" href="{{ site.baseurl }}/assets/Downloads/FOREX_Daily_Breakout_EA_old_project.zip">Download ZIP</a>
 
  
