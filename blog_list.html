@@ -1,10 +1,44 @@
 ---
 layout: default
+title: Home
 ---
 
-    <h1>Blog posts:</h1>
+<!-- Home Jumbotron
+================================================== -->
+<section class="intro full-width">
+    <div class="wrapintro">
+        <h1>Mike Papinski lab :gem: </h1>
+        <h2 class="lead">Python, Forex, Data Science, Machine Learning, AI.</h2>
+        <a href="https://github.com/MikePapinski" class="btn">Check my work</a>
+    </div>
+</section>
 
-    <!-- Posts Index
+
+<!-- Featured
+================================================== -->
+<section class="featured-posts">
+
+    <div class="section-title">
+        <h2><span>Featured</span></h2>
+    </div>
+
+    <div class="row listfeaturedtag">
+
+    {% for post in site.posts %}
+
+        {% if post.featured == true %}
+
+            {% include featuredbox.html %}
+
+        {% endif %}
+
+    {% endfor %}
+
+    </div>
+
+</section>
+
+<!-- Posts Index
 ================================================== -->
 {% if paginator.previous_page %}
 {% if paginator.previous_page > 0 %}
