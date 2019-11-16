@@ -9,7 +9,14 @@ image: assets/images/posts/6/post_6.jpg
 
 
 
-# --- INTRO 
+
+# Story on Youtube:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/92JE6SvJ4f0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+# Or written:
+
+## --- INTRO 
 
   
 
