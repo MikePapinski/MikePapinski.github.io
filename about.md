@@ -4,8 +4,7 @@ title: About
 comments: true
 ---
 
-# Who am I? :smile:
-:smile:
+# Who am I? 
 
 ![Avatar]({{ site.baseurl }}/assets/images/posts/about/about_9.jpg)
 
