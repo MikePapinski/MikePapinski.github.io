@@ -1,8 +1,22 @@
 ---
-layout: page
+layout: default
 ---
 
     <h1>Blog posts:</h1>
+
+    <!-- Posts Index
+================================================== -->
+{% if paginator.previous_page %}
+{% if paginator.previous_page > 0 %}
+<div id="jumptopageof"></div>
+{% endif %}
+{% endif %}
+
+<section class="recent-posts row">
+
+    <div class="col-sm-4">
+        {% include sidebar.html %}
+    </div>
 
     <div class="col-sm-8">
 
@@ -14,9 +28,11 @@ layout: page
 
             {% for post in paginator.posts %}
 
+            {% unless post.featured == true %}
 
                 {% include postbox.html %}
 
+            {% endunless %}
 
             {% endfor %}
 
@@ -35,4 +51,4 @@ layout: page
 
     </div>
 
-    
+</section>
