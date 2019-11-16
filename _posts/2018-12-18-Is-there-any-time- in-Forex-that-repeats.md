@@ -374,7 +374,7 @@ make_heat_map(test)
 ```
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_4/output_16_0.png)
+![png]({{ site.baseurl }}/assets/images/posts/3/output_16_0.png)
 
 
 ## GBP/USD 2003-2019 1h candles data
@@ -390,11 +390,11 @@ make_heat_map(stats_list)
 ```
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_4/output_18_0.png)
+![png]({{ site.baseurl }}/assets/images/posts/3/output_18_0.png)
 
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_4/output_18_1.png)
+![png]({{ site.baseurl }}/assets/images/posts/3/output_18_1.png)
 
 
 ## USD/CAD 2003-2019 1h candles data
@@ -410,11 +410,11 @@ make_heat_map(stats_list)
 ```
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_4/output_20_0.png)
+![png]({{ site.baseurl }}/assets/images/posts/3/output_20_0.png)
 
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_4/output_20_1.png)
+![png]({{ site.baseurl }}/assets/images/posts/3/output_20_1.png)
 
 
 ## NZD/USD 2003-2019 1h candles data
@@ -430,11 +430,11 @@ make_heat_map(stats_list)
 ```
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_4/output_22_0.png)
+![png]({{ site.baseurl }}/assets/images/posts/3/output_22_0.png)
 
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_4/output_22_1.png)
+![png]({{ site.baseurl }}/assets/images/posts/3/output_22_1.png)
 
 
 ## USD/JPY 2003-2019 1h candles data
@@ -450,11 +450,11 @@ make_heat_map(stats_list)
 ```
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_4/output_24_0.png)
+![png]({{ site.baseurl }}/assets/images/posts/3/output_24_0.png)
 
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_4/output_24_1.png)
+![png]({{ site.baseurl }}/assets/images/posts/3/output_24_1.png)
 
 
 ## AUD/USD 2003-2019 1h candles data
@@ -470,11 +470,11 @@ make_heat_map(stats_list)
 ```
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_4/output_26_0.png)
+![png]({{ site.baseurl }}/assets/images/posts/3/output_26_0.png)
 
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_4/output_26_1.png)
+![png]({{ site.baseurl }}/assets/images/posts/3/output_26_1.png)
 
 
 ## USD/CHF 2003-2019 1h candles data
@@ -490,11 +490,11 @@ make_heat_map(stats_list)
 ```
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_4/output_28_0.png)
+![png]({{ site.baseurl }}/assets/images/posts/3/output_28_0.png)
 
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_4/output_28_1.png)
+![png]({{ site.baseurl }}/assets/images/posts/3/output_28_1.png)
 
 
 
