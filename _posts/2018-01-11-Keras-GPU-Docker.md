@@ -4,6 +4,7 @@ title:  "The easiest way to use Keras on GPU with Docker."
 author: MikePapinski
 categories: [Docker, Deep Learning, Machine Learning, Python]
 image: assets/images/posts/1/post_1.jpg
+featured: true
 ---
 
 
