@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Predict Forex candlestick patterns using Keras.
+author: MikePapinski
 summary: Check if it is possible to predict forex price movements only based on candlestick data.We will use 1h time-frame data set of EUR/USD during ~2014-2019 year.
-featured-img: post_3
-categories: [Sample, Guides]
+categories: [Deep Learning, Machine Learning, Python, Forex]
+image: assets/images/posts/2/post_2.jpg
 ---
 
 # Check accuracy of candlestick patterns on FOREX dataset
@@ -17,7 +18,7 @@ We will take only 3 last candles and based on that make a prediction of the next
 
 #### The example of candlestick patterns that we will try to predict or prove that those kind of patterns exists and work:
 
-![Candlestick popular patterns]({{ site.baseurl }}/assets/img/posts/post_3/candles.jpg)
+![Candlestick popular patterns]({{ site.baseurl }}/assets/images/posts/2/candles.jpg)
 
 #### Before we even start, we need to download all the required libraries to perform the task.
 
@@ -228,7 +229,7 @@ graph_data_ohlc(my_dataset.tail(1000).values)
 ```
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_3/output_23_0.png)
+![png]({{ site.baseurl }}/assets/images/posts/2/output_23_0.png)
 
 
 ## 1.2 - Converting data to time series format
@@ -296,35 +297,35 @@ for candle in three_dim_sequence[1000:1005]:
 
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_3/output_33_1.png)
+![png]({{ site.baseurl }}/assets/images/posts/2/output_33_1.png)
 
 
     Step 2
 
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_3/output_33_3.png)
+![png]({{ site.baseurl }}/assets/images/posts/2/output_33_3.png)
 
 
     Step 3
 
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_3/output_33_5.png)
+![png]({{ site.baseurl }}/assets/images/posts/2/output_33_5.png)
 
 
     Step 4
 
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_3/output_33_7.png)
+![png]({{ site.baseurl }}/assets/images/posts/2/output_33_7.png)
 
 
     Step 5
 
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_3/output_33_9.png)
+![png]({{ site.baseurl }}/assets/images/posts/2/output_33_9.png)
 
 
 ## 1.3 - Feature engineering
@@ -620,35 +621,35 @@ for a in range(5):
 
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_3/output_65_1.png)
+![png]({{ site.baseurl }}/assets/images/posts/2/output_65_1.png)
 
 
     Correct prediction would be Bullish ---^
 
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_3/output_65_3.png)
+![png]({{ site.baseurl }}/assets/images/posts/2/output_65_3.png)
 
 
     Correct prediction would be Bearish ---v
 
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_3/output_65_5.png)
+![png]({{ site.baseurl }}/assets/images/posts/2/output_65_5.png)
 
 
     Correct prediction would be Bearish ---v
 
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_3/output_65_7.png)
+![png]({{ site.baseurl }}/assets/images/posts/2/output_65_7.png)
 
 
     Correct prediction would be Bullish ---^
 
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_3/output_65_9.png)
+![png]({{ site.baseurl }}/assets/images/posts/2/output_65_9.png)
 
 
 ## 1.4 - Build Deep Learning model
@@ -798,11 +799,11 @@ plt.show()
 ```
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_3/output_81_0.png)
+![png]({{ site.baseurl }}/assets/images/posts/2/output_81_0.png)
 
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_3/output_81_1.png)
+![png]({{ site.baseurl }}/assets/images/posts/2/output_81_1.png)
 
 
 ## 1.5 - Test the model against new data
@@ -862,7 +863,7 @@ cell_timer.kill()
 
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_3/output_86_1.png)
+![png]({{ site.baseurl }}/assets/images/posts/2/output_86_1.png)
 
 
     [0.24589519]
@@ -872,7 +873,7 @@ cell_timer.kill()
 
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_3/output_86_3.png)
+![png]({{ site.baseurl }}/assets/images/posts/2/output_86_3.png)
 
 
     [0.24589519]
@@ -882,7 +883,7 @@ cell_timer.kill()
 
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_3/output_86_5.png)
+![png]({{ site.baseurl }}/assets/images/posts/2/output_86_5.png)
 
 
     [0.24589519]
@@ -892,7 +893,7 @@ cell_timer.kill()
 
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_3/output_86_7.png)
+![png]({{ site.baseurl }}/assets/images/posts/2/output_86_7.png)
 
 
     [0.24589519]
@@ -902,7 +903,7 @@ cell_timer.kill()
 
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_3/output_86_9.png)
+![png]({{ site.baseurl }}/assets/images/posts/2/output_86_9.png)
 
 
     [0.24589519]
@@ -912,7 +913,7 @@ cell_timer.kill()
 
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_3/output_86_11.png)
+![png]({{ site.baseurl }}/assets/images/posts/2/output_86_11.png)
 
 
     [0.24589519]
@@ -922,7 +923,7 @@ cell_timer.kill()
 
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_3/output_86_13.png)
+![png]({{ site.baseurl }}/assets/images/posts/2/output_86_13.png)
 
 
     [0.24589519]
@@ -932,7 +933,7 @@ cell_timer.kill()
 
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_3/output_86_15.png)
+![png]({{ site.baseurl }}/assets/images/posts/2/output_86_15.png)
 
 
 
@@ -943,7 +944,7 @@ cell_timer.kill()
 
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_3/output_86_109.png)
+![png]({{ site.baseurl }}/assets/images/posts/2/output_86_109.png)
 
 
     [0.24589519]
@@ -953,7 +954,7 @@ cell_timer.kill()
 
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_3/output_86_111.png)
+![png]({{ site.baseurl }}/assets/images/posts/2/output_86_111.png)
 
 
     Won: 52 Lost: 4
@@ -1024,7 +1025,7 @@ cell_timer.kill()
 ```
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_3/output_92_0.png)
+![png]({{ site.baseurl }}/assets/images/posts/2/output_92_0.png)
 
 
 Now we can see that model trained itself in a way to pay the most attention to the first candle and the wicks up parameter. The last candle is also less important than the others when it comes to making prediction.
@@ -1624,11 +1625,11 @@ plt.show()
 ```
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_3/output_138_0.png)
+![png]({{ site.baseurl }}/assets/images/posts/2/output_138_0.png)
 
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_3/output_138_1.png)
+![png]({{ site.baseurl }}/assets/images/posts/2/output_138_1.png)
 
 
 #### Looks like our model is getting overfitted by the ~25th epoch. let's train it again only for 25 epochs.
@@ -1744,11 +1745,11 @@ plt.show()
 ```
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_3/output_142_0.png)
+![png]({{ site.baseurl }}/assets/images/posts/2/output_142_0.png)
 
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_3/output_142_1.png)
+![png]({{ site.baseurl }}/assets/images/posts/2/output_142_1.png)
 
 
 #### Evaluate how good is the new model:
@@ -1869,7 +1870,7 @@ plt.show()
 ```
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_3/output_154_0.png)
+![png]({{ site.baseurl }}/assets/images/posts/2/output_154_0.png)
 
 
 We can see that our model is making predictions onlu in ~10 months out of 40 so it is 25%. It is not good.
@@ -1885,7 +1886,7 @@ cell_timer.kill()
 ```
 
 
-![png]({{ site.baseurl }}/assets/img/posts/post_3/output_157_0.png)
+![png]({{ site.baseurl }}/assets/images/posts/2/output_157_0.png)
 
 
     Time elapsed: 00:00:30

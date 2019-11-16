@@ -1,9 +1,10 @@
 ---
 layout: post
 title: forex repeat.
+author: MikePapinski
 summary: Check if it is possible to predict forex price movements only based on candlestick data.We will use 1h time-frame data set of EUR/USD during ~2014-2019 year.
-featured-img: post_4
-categories: [Sample, Guides]
+categories: [Deep Learning, Machine Learning, Python, Forex]
+image: assets/images/posts/3/post_3.jpg
 ---
 
 
