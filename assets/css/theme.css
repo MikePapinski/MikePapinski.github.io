@@ -326,11 +326,10 @@ span.post-name a,span.post-read-more a:hover {
 	margin-bottom:1rem;
 }
 .intro {
-    /*background-image:url(../images/front_background.jpg);
+    background-image:url(../images/front_all_over.png);
     background-size:cover;
-    */
-    background: rgb(99,180,170);
-    background: radial-gradient(circle, rgba(99,180,170,1) 52%, rgba(19,118,105,1) 68%);
+    /*background: rgb(99,180,170);
+    background: radial-gradient(circle, rgba(99,180,170,1) 52%, rgba(19,118,105,1) 68%);*/
     padding: 9rem 0;
     margin-top:-87px;
     margin-bottom:3.5rem;
