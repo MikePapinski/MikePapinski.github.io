@@ -458,6 +458,7 @@ OR
 ```
 Where,
 
+```bash
 1: Minute (0-59)
 2: Hours (0-23)
 3: Day (0-31)
@@ -474,7 +475,10 @@ Easy to remember format:
 | | --------- Day of month (1 - 31)
 | ----------- Hour (0 - 23)
 ------------- Minute (0 - 59)
+```
+
 Your cron job looks as follows for system jobs:
+
 
 ```bash
 1 2 3 4 5 USERNAME /path/to/command arg1 arg2
