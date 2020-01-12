@@ -497,7 +497,8 @@ If you wished to have a script named /root/backup.sh run every day at 3am, your 
 Append the following entry:
 
 ```bash
-0 3 * * * /root/backup.sh
+0 3 * * * /root/backup.sh backup-full
+0 3 * * * /root/backup.sh backup-incremental
 ```
 
 Save and close the file.
